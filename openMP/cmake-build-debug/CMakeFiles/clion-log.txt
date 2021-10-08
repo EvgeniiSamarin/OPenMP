@@ -1,0 +1,8 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_CXX_COMPILER=/usr/bin/clang++ -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /Users/evgeniisamarin/CLionProjects/openMP
+-- Found OpenMP_C: -Xclang -fopenmp (found version "5.0") 
+-- Found OpenMP_CXX: -Xclang -fopenmp (found version "5.0") 
+-- Found OpenMP_C: -Xclang -fopenmp (found version "5.0") 
+-- Found OpenMP_CXX: -Xclang -fopenmp (found version "5.0") 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/evgeniisamarin/CLionProjects/openMP/cmake-build-debug

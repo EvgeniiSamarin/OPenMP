@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.19)
+project(openMP)
+find_package( OpenMP )
+add_executable(cpp_code main.cpp)
+find_package(OpenMP REQUIRED)
+target_link_libraries(cpp_code PRIVATE OpenMP::OpenMP_CXX)

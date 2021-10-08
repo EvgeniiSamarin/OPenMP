@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/evgeniisamarin/CLionProjects/openMP/main.cpp
+iostream
+-
+omp.h
+-
+unistd.h
+-
+
+/usr/local/include/omp.h
+stdlib.h
+-
+stdint.h
+-
+

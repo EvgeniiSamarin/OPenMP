@@ -1,0 +1,1 @@
+/usr/local/Cellar/llvm/6.0.0/bin/clang++  -Wall -std=gnu++0x -fopenmp=libomp -Wno-unused-command-line-argument -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/MyOpenCVTest.dir/main.cpp.o -o MyOpenCVTest 
